@@ -1,0 +1,88 @@
+body {
+	font: 32px/1.4em "Segoe UI", serif;
+	background: #EAEAEA url('../images/bg.png');
+	color: #4D4D4D;
+	width: 600px;
+	margin: 0 auto;
+}
+
+h1 {
+	width: 100%;
+	font: 70px;
+	font-weight: bold;
+	text-align: center;
+	color: #aaa;
+}
+
+
+#new-todo {
+	font-size: 24px;
+	padding: 16px;
+	border: 1px solid #aaa;
+	background: rgba(255, 255, 255, 0.5);
+	z-index: 2;
+	width: 94%;
+	box-shadow: none;
+}
+
+#todo-list {
+	margin-bottom: 5px;
+	padding: 0;
+	width: 100%;
+}
+
+#done-list {
+	padding: 0;
+	width: 100%;
+}
+#done-list li label {
+	text-decoration: line-through;
+}
+
+.data {
+	margin: 5px 0;
+	padding: 2px;
+	font-size: 18px;
+	line-height: 32px;
+	list-style: none;
+	background: #DDD;
+	border-left: 2px solid #bbb;
+}
+
+.data label {	
+	padding-left: 5px;
+}
+
+
+.controls {
+	border: none;
+	padding: 0;
+	margin-right: 5px;
+	height: 32px;
+	width: 32px;
+	opacity: 0;
+}
+
+.controls:hover {
+	opacity: 1;
+	box-shadow: 0px 0px 3px;
+}
+
+.clicked {
+	box-shadow: inset 0px 0px 20px #777;
+}
+
+.check {
+	background: url('../images/check.png');
+	float: right;
+}
+
+.destroy {
+	background: url('../images/destroy.png');
+	float: right;
+}
+
+footer {
+	font-size: 16px;
+	text-align: center;
+}
